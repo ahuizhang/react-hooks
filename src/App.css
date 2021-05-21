@@ -1,0 +1,12 @@
+@import '~antd/dist/antd.css';
+
+.badyHome {
+    height: 100vh;
+    /* background: url('./static/image/yourname.jpg') no-repeat; */
+}
+
+.login_container {
+    padding-top: 12rem;
+    margin: 0 auto;
+    width: 20rem;
+}

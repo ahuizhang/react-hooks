@@ -1,0 +1,109 @@
+.chatRoomContailter {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userList {
+    width: 30%;
+    height: 100%;
+    border: 1px solid #999;
+}
+
+.chatRightList {
+    width: 70%;
+    height: 100%;
+}
+
+.chatContent {
+    overflow: auto;
+    height: 90%;
+    padding: 1rem;
+}
+
+.chatLeft {
+    display: flex;
+    align-items: center;
+}
+
+.chatLeft img {
+    margin-right: 0.5rem;
+    width: 3rem;
+}
+
+.chatLeft .leftText {
+    display: flex;
+    flex-direction: column;
+}
+
+.chatLeft .leftText .leftTitle {
+    font-size: 0.8rem;
+    color: #999;
+}
+
+.chatLeft .leftText .leftTx {
+    width: 50vw;
+    background: rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    padding: 0.4rem 0.8rem;
+    text-align: justify;
+    text-justify: newspaper;
+    word-break: break-all;
+}
+
+.chatRight {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    color: #fff;
+}
+
+.chatRight img {
+    margin-left: 0.5rem;
+    width: 3rem;
+}
+
+.chatRight .rightText {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.chatRight .rightText .rightTitle {
+    text-align: right;
+    font-size: 0.8rem;
+    color: #999;
+}
+
+.chatRight .rightText .RightText {
+    width: 50vw;
+    font-size: 1rem;
+    background: rgb(149, 236, 105);
+    border-radius: 0.4rem;
+    padding: 0.4rem 0.8rem;
+    text-align: justify;
+    text-justify: newspaper;
+    word-break: break-all;
+}
+
+.chatRoomFooter {
+    height: 10%;
+    background: #fff;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.chatRoomFooter .chatSendButton {
+    font-size: 1.5rem;
+    width: 12.5rem;
+    height: 100%;
+}
+
+.chatRoomFooter .chatSendContent {
+    font-size: 1.5rem;
+    height: 100%;
+}
